@@ -19,7 +19,7 @@
 
 <p>X-Lasso-Auth: Token={apiKey},Version=1.0</p>
 
-<p>Once you have your json formatted submit your leads to https://api.lassocrm.com/registrants</p>
+<p>Once you have your json formatted submit your leads to https://api.lassocrm.com/v1/registrants</p>
 
 <h3><a name="response-codes">Response Codes</a></h3>
 <table>
