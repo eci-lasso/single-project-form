@@ -7,25 +7,25 @@ require('src/RegistrantSubmitter.php');
  * and should not be hidden fields on the registration form
  * Note that $apiKey is where the Lasso UID is placed.
  */
-$clientId  = '693';
-$projectId = '3075';
-$apiKey = 'N*GMY)hjc%';
+$clientId  = '1111';
+$projectId = '1111';
+$apiKey = 'X1X1X';
 
 if (empty($clientId) || empty($projectId) || empty($apiKey)){
 	throw new Exception('Required parameters are not set, please
-						check that your $clientId, $projectId and $apiKey are
-						configured correctly');
-	}
+			     check that your $clientId, $projectId and $apiKey are
+			     configured correctly');
+}
 
 /* Constructing and submitting a lead:
  * Map form fields to the lead object and submit
  */
 $lead = new LassoLead(
 	$_REQUEST['FirstName'],
-    $_REQUEST['LastName'],
-    $projectId,
-    $clientId
-	);
+	$_REQUEST['LastName'],
+	$projectId,
+	$clientId
+);
 
 $lead->addPhone($_REQUEST['Phone']);
 
@@ -33,11 +33,13 @@ $lead->addEmail($_REQUEST['Email']);
 
 $lead->addAddress(
 	$_REQUEST['Address'],
-    $_REQUEST['City'],
-    $_REQUEST['Province'],
-    $_REQUEST['PostalCode'],
-    $_REQUEST['Country']
-	);
+	$_REQUEST['City'],
+	$_REQUEST['Province'],
+	$_REQUEST['PostalCode'],
+	$_REQUEST['Country']
+);
+
+$lead->setNameTitle($_REQUEST['NameTitle']);
 
 $lead->setCompany($_REQUEST['Company']);
 
@@ -59,7 +61,7 @@ $lead->setRotationId('Online');
  */
 foreach($_REQUEST['Questions'] as $questionId => $value){
 	 $lead->answerQuestionById($questionId, $value);
-	 }
+}
 
 /* Questions (text answer)
  *
@@ -78,11 +80,10 @@ $lead->sendAutoReplyThankYouEmail('256449');
 /* Website Tracking
  *
  * Value for $domainAccountId can be found in the tracking code provided by Lasso
- * Value for $guid can be obtained using a GUID generator such as the one at
- * www.guidgenerator.com
+ * Value for $guid can be obtained using the GUID Generator
  * $lead->setWebsiteTracking ($domainAccountId, $guid);
  */
-$lead->setWebsiteTracking('LAS-930551-01', 'fb6db0f9-0652-4e48-acca-cf31f2f5d8fb');
+$lead->setWebsiteTracking('LAS-930551-01', $_REQUEST['guid']);
 
 $lead->sendAssignmentNotification();
 
