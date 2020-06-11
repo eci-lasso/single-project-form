@@ -70,6 +70,7 @@
 			<!-- Passes information to the PHP file and re-directs to the Thank You page -->
 			$('#register').click(function()
 			{
+				validator();
 				jQuery.ajax(
 				{
 					type: "POST",
