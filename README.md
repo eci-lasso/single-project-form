@@ -1,7 +1,5 @@
 <h1>Registering via cUrl using PHP</h1>
 
-<hr />
-
 <h3><a name="using-php">Using PHP</a></h3>
 <p>Once you have checked out the repo you will need to update the following in <a href="https://github.com/eci-lasso/single-project-form/blob/master/signup.php" target="_blank">signup.php</a> to test a submission</p>
 <ul>
