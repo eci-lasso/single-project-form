@@ -1,8 +1,8 @@
 {
 	"clientId":"693",
 	"project":{
-    	"name":"Best Builder Homes OSC",
-    	"projectId":"3075"
+		"name":"Best Builder Homes OSC",
+		"projectId":"3075"
 		},
 	"person":{
 		"nameTitle":"Dr",
@@ -64,7 +64,7 @@
 		"domainAccountId":"LAS-930551-01",
 		"guid":"fb6db0f9-0652-4e48-acca-cf31f2f5d8fb"
 		},
-	"sendSalesRepAssignmentNotification" true,
+	"sendSalesRepAssignmentNotification":true,
 	"thankYouEmailTemplateId":"256449",
 	"questions":[{
 		"questionId":"80560",
