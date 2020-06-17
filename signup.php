@@ -82,7 +82,7 @@ $lead->sendAutoReplyThankYouEmail('256449');
  * www.guidgenerator.com
  * $lead->setWebsiteTracking ($domainAccountId, $guid);
  */
-$lead->setWebsiteTracking('LAS-930551-01', 'fb6db0f9-0652-4e48-acca-cf31f2f5d8fb');
+$lead->setWebsiteTracking('LAS-930551-01', $guid);
 
 $lead->sendAssignmentNotification();
 
