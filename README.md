@@ -24,8 +24,8 @@
 <h3><a name="response-codes">Response Codes</a></h3>
 <table>
 <tr>
-<td>Code</td>
-<td>What does that mean?</td>
+<td><b>Code</b></td>
+<td><b>What does that mean?</b></td>
 </tr>
 <tr>
 <td>201</td>
