@@ -176,5 +176,22 @@ $(document).ready(function(){
 	</p>
 	</form>
 </td></tr></table>
+	
+<!-- Lasso Website Tracking Script -->
+<script src="//app.lassocrm.com/analytics.js" type="text/javascript"></script>
+<script type="text/javascript">
+<!--
+var LassoCRM = LassoCRM || {};
+(function(ns){
+	ns.tracker = new LassoAnalytics('LAS-930551-01');
+})(LassoCRM);
+try {
+	LassoCRM.tracker.setTrackingDomain("//app.lassocrm.com");
+	LassoCRM.tracker.init();  // initializes the tracker
+	LassoCRM.tracker.track(); // track() records the page visit with the current page title, to record multiple visits call repeatedly.
+	LassoCRM.tracker.patchRegistrationForms();
+} catch(error) {}
+-->
+</script>
 </body>
 </html>
