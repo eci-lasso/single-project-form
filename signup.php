@@ -39,6 +39,8 @@ $lead->addAddress(
 	$_REQUEST['Country']
 );
 
+$lead->setNameTitle($_REQUEST['NameTitle']);
+
 $lead->setCompany($_REQUEST['Company']);
 
 $lead->addNote($_REQUEST['Comments']);
