@@ -7,9 +7,9 @@ require('src/RegistrantSubmitter.php');
  * and should not be hidden fields on the registration form
  * Note that $apiKey is where the Lasso UID is placed.
  */
-$clientId  = '693';
-$projectId = '3075';
-$apiKey = 'N*GMY)hjc%';
+$clientId  = '1111';
+$projectId = '1111';
+$apiKey = 'X1X1X';
 
 if (empty($clientId) || empty($projectId) || empty($apiKey)){
 	throw new Exception('Required parameters are not set, please
