@@ -77,36 +77,14 @@ $lead->answerQuestionByIdForText(80564,$_REQUEST['Questions'][80564]);
  */
 $lead->sendAutoReplyThankYouEmail('256449');
 
-/* GUID Generator
- *
- * Generates the GUID that is used for Website Tracking
- */
-function getGUID(){
-	if (function_exists('com_create_guid')){
-			return com_create_guid();
-	}
-	else{
-		mt_srand((double)microtime()*10000);
-		$charid = strtoupper(md5(uniqid(rand(), true)));
-		$hyphen = chr(45);
-		$uuid = chr(123)
-			.substr($charid, 0, 8).$hyphen
-			.substr($charid, 8, 4).$hyphen
-			.substr($charid,12, 4).$hyphen
-			.substr($charid,16, 4).$hyphen
- 			.substr($charid,20,12)
-			.chr(125);
-		return $uuid;
-	}
-}
-
 /* Website Tracking
  *
  * Value for $domainAccountId can be found in the tracking code provided by Lasso
  * Value for $guid can be obtained using the GUID Generator
  * $lead->setWebsiteTracking ($domainAccountId, $guid);
  */
-$lead->setWebsiteTracking('LAS-930551-01', getGUID());
+
+$lead->setWebsiteTracking('LAS-930551-01', $_REQUEST['guid']);
 
 $lead->sendAssignmentNotification();
 
