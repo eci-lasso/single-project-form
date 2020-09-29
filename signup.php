@@ -80,7 +80,7 @@ $lead->sendAutoReplyThankYouEmail('256449');
 /* Website Tracking
  *
  * Value for $domainAccountId can be found in the tracking code provided by Lasso
- * $lead->setWebsiteTracking ($domainAccountId, $_REQUEST['guid']);
+ * $lead->setWebsiteTracking ($domainAccountId, $_REQUEST[$guid]);
  */
 $lead->setWebsiteTracking('LAS-930551-01', $_REQUEST['guid']);
 
