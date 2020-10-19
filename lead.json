@@ -1,131 +1,150 @@
 {
-	"clientId":"1111",
-	"project":{
-		"name":"Best Builder Homes OSC",
-		"projectId":"1111"
-		},
-	"person":{
-		"nameTitle":"Dr",
-		"firstName":"Oliver",
-		"lastName":"Thredson",
-		"company":"Briarcliff Manor"
-		"contactPreference":"Any",
-		}
-	"emails":[{
-		"email":"othredson@gmail.com",
-		"type":"Primary",
-		"primary":true
-		}],
-	"phones":[{
-		"phone":"(604) 214-8555",
-		"type":"Work",
-		"primary":true
-		},
-		{
-		"phone":"(604) 321-1234",
-		"type":"Mobile",
-		"primary":false
-		}],
-	"addresses":[{
-		"address":"1373-13351 Commerce Parkway",
-		"city":"Richmond",
-		"state":"BC",
-		"zipCode":"V6V 2X7",
-		"country":"Canada",
-		"type":"Work",
-		"primary":true
-		}],
-	"notes":[{
-		"note":"I have two small dogs and am interested in pet-friendly properties.",
-		"createdBy":{
-			"firstName":"Sapna",
-			"lastName":"Hilger"
-			},
-		"_links":{
-			"delete":""
-			}
-		}],
-	"sourceType":{
-		"sourceType":"Online Registration"
-		},
-	"secondarySourceType":{
-		"secondarySourceType":"Google Campaign"
-		},
-	"rating":{
-		"ratingId":"15594384",
-		"rating":"N"
-		},
-	"followUpProcess":{
-		"followUpProcessId": "35186",
-		"followUpProcess": "30 Day Follow-up"
-		},
-	"rotationId":"Online",
-	"websiteTracking":{
-		"domainAccountId":"LAS-930551-01",
-		"guid":"fb6db0f9-0652-4e48-acca-cf31f2f5d8fb"
-		},
-	"sendSalesRepAssignmentNotification":true,
-	"thankYouEmailTemplateId":"256449",
-	"questions":[{
-		"questionId":"80560",
-		"type":"checkbox",
-		"name":"Property Interest",
-		"path":"Qualifying Questions (Sample Data)",
-		"answers":[{
-			"answerId":"255027",
-			"answer":"Crimson Hill"
-			},
-			{
-			"answerId":"255031",
-			"answer":"Sleepy Hollow"
-			}]
-		},
-		{
-		"questionId":"80561",
-		"type":"multiple",
-		"name":"Property Type",
-		"path":"Qualifying Questions (Sample Data)",
-		"answers":[{
-			"answerId":"255034",
-			"answer":"Condominium"
-			},
-			{
-			"answerId":"255036",
-			"answer":"Townhouse"
-			},
-			{
-			"answerId":"255038",
-			"answer":"Duplex/Triplex"
-			}]
-		},
-		{
-		"questionId":"80562",
-		"type":"single",
-		"name":"Budget",
-		"path":"Qualifying Questions (Sample Data)",
-		"answers":[{
-			"answerId":"255042",
-			"answer":"$400K - $499K"
-			}]
-		},
-		{
-		"questionId":"80563",
-		"type":"radio",
-		"name":"Area Knowledge",
-		"path":"Qualifying Questions (Sample Data)",
-		"answers":[{
-			"answerId":"255050",
-			"answer":"No"
-			}]
-		},
-		{
-		"questionId":"80564",
-		"type":"text",
-		"name":"Additional Inquiries",
-		"path":"Qualifying Questions (Sample Data)",
-		"answers":[{
-			"answer":"Do you have any pet-friendly properties?"
-			}]
-		}
-	]
+  "clientId": "1111",
+  "project": {
+    "name": "Best Builder Homes OSC",
+    "projectId": "1111"
+  },
+  "person": {
+    "nameTitle": "Dr",
+    "firstName": "Oliver",
+    "lastName": "Thredson",
+    "company": "Briarcliff Manor",
+    "contactPreference": "Any"
+  },
+  "emails": [
+    {
+      "email": "othredson@gmail.com",
+      "type": "Primary",
+      "primary": true
+    }
+  ],
+  "phones": [
+    {
+      "phone": "(604) 214-8555",
+      "type": "Work",
+      "primary": true
+    },
+    {
+      "phone": "(604) 321-1234",
+      "type": "Mobile",
+      "primary": false
+    }
+  ],
+  "addresses": [
+    {
+      "address": "1373-13351 Commerce Parkway",
+      "city": "Richmond",
+      "state": "BC",
+      "zipCode": "V6V 2X7",
+      "country": "Canada",
+      "type": "Work",
+      "primary": true
+    }
+  ],
+  "notes": [
+    {
+      "note": "I have two small dogs and am interested in pet-friendly properties.",
+      "createdBy": {
+        "firstName": "Sapna",
+        "lastName": "Hilger"
+      },
+      "_links": {
+        "delete": ""
+      }
+    }
+  ],
+  "sourceType": {
+    "sourceType": "Online Registration"
+  },
+  "secondarySourceType": {
+    "secondarySourceType": "Google Campaign"
+  },
+  "rating": {
+    "ratingId": "15594384",
+    "rating": "N"
+  },
+  "followUpProcess": {
+    "followUpProcessId": "35186",
+    "followUpProcess": "30 Day Follow-up"
+  },
+  "rotationId": "Online",
+  "websiteTracking": {
+    "domainAccountId": "LAS-930551-01",
+    "guid": "fb6db0f9-0652-4e48-acca-cf31f2f5d8fb"
+  },
+  "sendSalesRepAssignmentNotification": true,
+  "thankYouEmailTemplateId": "256449",
+  "questions": [
+    {
+      "questionId": "80560",
+      "type": "checkbox",
+      "name": "Property Interest",
+      "path": "Qualifying Questions (Sample Data)",
+      "answers": [
+        {
+          "answerId": "255027",
+          "answer": "Crimson Hill"
+        },
+        {
+          "answerId": "255031",
+          "answer": "Sleepy Hollow"
+        }
+      ]
+    },
+    {
+      "questionId": "80561",
+      "type": "multiple",
+      "name": "Property Type",
+      "path": "Qualifying Questions (Sample Data)",
+      "answers": [
+        {
+          "answerId": "255034",
+          "answer": "Condominium"
+        },
+        {
+          "answerId": "255036",
+          "answer": "Townhouse"
+        },
+        {
+          "answerId": "255038",
+          "answer": "Duplex/Triplex"
+        }
+      ]
+    },
+    {
+      "questionId": "80562",
+      "type": "single",
+      "name": "Budget",
+      "path": "Qualifying Questions (Sample Data)",
+      "answers": [
+        {
+          "answerId": "255042",
+          "answer": "$400K - $499K"
+        }
+      ]
+    },
+    {
+      "questionId": "80563",
+      "type": "radio",
+      "name": "Area Knowledge",
+      "path": "Qualifying Questions (Sample Data)",
+      "answers": [
+        {
+          "answerId": "255050",
+          "answer": "No"
+        }
+      ]
+    },
+    {
+      "questionId": "80564",
+      "type": "text",
+      "name": "Additional Inquiries",
+      "path": "Qualifying Questions (Sample Data)",
+      "answers": [
+        {
+          "answer": "Do you have any pet-friendly properties?"
+        }
+      ]
+    }
+  ]
 }
