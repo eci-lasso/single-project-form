@@ -112,7 +112,7 @@ class LassoLead
   /**
    * String $thankYouEmailTemplateId
    */
-  private $thankYouEmailTemplateId = '';
+  private $thankYouEmailTemplateId = null;
 
   /**
    * bool $sendOptInEmail
