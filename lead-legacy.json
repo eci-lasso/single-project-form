@@ -1,6 +1,7 @@
 // curl --location --request POST 'https://api.lassocrm.com/registrants' \
 // --header 'X-Lasso-Auth: Token=uxvGFnb}EF,Version=1.0' \
 // --data-raw '
+
 {
 	"clientId":"1111",
 	"projectIds":["1111"],
@@ -51,11 +52,11 @@
 			"id":"001"
 			"text":"Crimson Hill"
 			},
-			{
+		{
 			"id":"002"
 			"text":"Sleepy Hollow"
 			}]
-	},
+		},
 	{
 		"questionId":"2222",
 		"name":"Property Type",
@@ -64,15 +65,15 @@
 			"id":"001"
 			"text":"Condominium"
 			},
-			{
+		{
 			"id":"002"
 			"text":"Townhouse"
 			},
-			{
+		{
 			"id":"003"
 			"text":"Duplex/Triplex"
 			}]
-	},
+		},
 	{
 		"questionId":"3333",
 		"name":"Budget",
@@ -81,7 +82,7 @@
 			"id":"001"
 			"text":"$400K - $499K"
 			}]
-	},
+		},
 	{
 		"questionId":"4444",
 		"name":"Area Knowledge",
@@ -90,7 +91,7 @@
 			"id":"001"
 			"text":"No"
 			}]
-	},
+		},
 	{
 		"questionId":"5555",
 		"name":"Additional Inquiries",
@@ -98,5 +99,5 @@
 		"answers":[{
 			"text":"Do you have any pet-friendly properties?"
 			}]
-	}]
-}
+		}]
+	}
