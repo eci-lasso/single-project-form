@@ -1,0 +1,153 @@
+{
+	"websiteTracking":{
+		"domainAccountId": null,
+		"guid": null
+		},
+	"excludeFromTraffic": false,
+	"registrationDate": "2020-02-20T16:05:30Z",
+	"externalId": null,
+	"externalDuplicateIds": [],
+	"person":{
+		"personalId": "123456",
+		"nameTitle": "Dr",
+		"firstName": "Oliver",
+		"lastName": "Thredson",
+		"company": "Briarcliff Manor",
+		"contactPreference": "any",
+		"gender": "unspecified",
+		"nickname": "",
+		"birthday": "",
+		"ssnSin": ""
+		},
+	"rating":{
+		"rating": "N"
+		},
+	"sourceType":{
+		"sourceType": "Online Registration"
+		},
+	"secondarySourceType":{
+		"secondarySourceType": "Google Campaign"
+		},
+	"followUpProcess":{
+		"followUpProcessId": "35186",
+		"followUpProcess": "30 Day Follow-up"
+		},
+	"assignedSalesReps":[{
+		"firstName": "Friedrich",
+		"isPrimary": true,
+		"lastName": "Nietzsche",
+		"userId": "123456"
+		}],
+	"questions":[{
+		"questionId": "1111",
+		"type": "checkbox",
+		"name": "Property Interest",
+		"path": "/Qualifying Questions (Sample Data)",
+		"answers":[{
+			"answerId": "001",
+			"answer": "Crimson Hill"
+			},
+		{
+			"answerId": "002",
+			"answer": "Sleepy Hollow"
+			}],
+		},
+	{
+		"questionId": "2222",
+		"type": "checkbox",
+		"name": "Property Type",
+		"path": "/Qualifying Questions (Sample Data)",
+		"answers":[{
+			"answerId": "001",
+			"answer": "Condominium"
+			},
+		{
+			"answerId": "002",
+			"answer": "Townhouse"
+			},
+		{
+			"answerId": "003",
+			"answer": "Duplex/Triplex"
+			}],
+		},
+	{
+		"questionId": "3333",
+		"type": "text",
+		"name": "Budget",
+		"path": "/Qualifying Questions (Sample Data)",
+		"answers":[{
+			"answerId": "001",
+			"answer": "$400K - $499K"
+			}],
+		},
+	{
+		"questionId": "4444",
+		"type": "text",
+		"name": "Area Knowledge",
+		"path": "/Qualifying Questions (Sample Data)",
+		"answers":[{
+			"answerId": "001",
+			"answer": "No"
+			}],
+		},
+	{
+		"questionId": "5555",
+		"type": "text",
+		"name": "Additional Inquiries",
+		"path": "/Qualifying Questions (Sample Data)",
+		"answers":[{
+			"answerId": null,
+			"answer": "Do you have any pet-friendly properties?"
+			}],
+		}],
+	"registrantId": "123456",
+	"project":{
+		"name": "Best Builder Homes OSC",
+		"projectId": "1111"
+		},
+	"emails":[{
+		"emailId": "123456",
+		"email": "othredson@email.com",
+		"type": "Primary",
+		"primary": true
+		}],
+	"phones":[{
+		"phoneId": "123456",
+		"phone": "(604) 321-1234",
+		"type": "Work",
+		"primary": true
+		},
+	{
+		"phoneId": "654321",
+		"phone": "(778) 321-1234",
+		"type": "Mobile",
+		"primary": false
+		}],
+	"addresses":[{
+		"addressId": "123456",
+		"address": "1234 Main Street",
+		"city": "Vancouver",
+		"country": "Canada",
+		"state": "BC",
+		"zipCode": "V1V 1V1",
+		"type": "Work",
+		"primary": true
+		}],
+	"history": [],
+	"notes":[{
+		"noteId": "123456",
+		"note": "I have two small dogs and am interested in pet-friendly properties.",
+		"createdBy":{
+			"firstName": "Lasso",
+			"lastName": "Autobot",
+			"userId": "123456"
+			},
+		"_links":{"delete": "/registrants/123456/notes/123456"}
+		}],
+	"relationships": [],
+	"appointments": [],
+	"_links": {
+		"self": "/registrants/123456",
+		"update": "/registrants/123456"
+		}
+	}
