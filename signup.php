@@ -70,15 +70,6 @@ foreach($_REQUEST['Questions'] as $questionId => $value){
  */
 $lead->answerQuestionByIdForText(5555,$_REQUEST['Questions'][5555]);
 
-/* UTM Information
- *
- * For capturing UTM information and passing to Lasso as answers to manual input questions
- * $lead->answerQuestionByIdForText($questionId,$_REQUEST['Questions'][$questionId]);
- */
-$lead->answerQuestionByIdForText(6666, $_REQUEST['UTMTerm']);
-$lead->answerQuestionByIdForText(7777, $_REQUEST['UTMSource']);
-$lead->answerQuestionByIdForText(8888, $_REQUEST['UTMCampaign']);
-
 /* Auto-reply Email
  *
  * Value for $templateId should be the ID of the email template in Lasso
