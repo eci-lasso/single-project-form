@@ -88,3 +88,18 @@ $lead->sendAssignmentNotification();
 
 $submitter = new RegistrantSubmitter();
 $curl      = $submitter->submit('https://api.lassocrm.com/registrants', $lead, $apiKey);
+
+/*
+ * ---------------------------------------------------------------
+ * Troubleshooting examples
+ * ---------------------------------------------------------------
+ */
+
+/* Viewing the submission body */
+//echo json_encode($lead->toArray());
+
+/* Getting the response servers response code */
+//echo curl_getinfo($curl, CURLINFO_HTTP_CODE);
+
+/* Getting all details of the cUrl request */
+//print_r(curl_getinfo($curl));
