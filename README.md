@@ -1,7 +1,7 @@
 <h1>Registering via cUrl using PHP</h1>
 
 <h3><a name="using-php">Using PHP</a></h3>
-<p>The following fields will need to be updated in <a href="https://github.com/eci-lasso/single-project-form/blob/master/signup.php" target="_blank">signup.php</a> to test a submission</p>
+<p>The following fields will need to be updated in <a href="https://github.com/eci-lasso/single-project-form/blob/master/signup.php" target="_blank">signup.php</a> to test a submission:</p>
 <ul>
 <li><code>clientId</code></li>
 <li><code>projectId</code></li>
