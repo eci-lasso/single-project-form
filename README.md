@@ -8,7 +8,7 @@
 <li><code>apiKey</code></li>
 <li>Any other project-specific fields that require a text or numeric value</li>
 </ul>
-<p> Update the URL for <code>window.location</code> in <a href="https://github.com/eci-lasso/single-project-form/blob/master/signup.html" target="_blank">signup.html</a> and submit.</p>
+<p> Update the URL for <code>window.location</code> and the website tracking code in <a href="https://github.com/eci-lasso/single-project-form/blob/master/signup.html" target="_blank">signup.html</a> and submit.</p>
 
 <p><b>Registration is not in Lasso?</b></p>
 <p>If the submission did not go into Lasso, look at the error console in your browser. More information about the request can be found by uncommenting the lines at the bottom of <a href="https://github.com/eci-lasso/single-project-form/blob/master/signup.php" target="_blank">signup.php</a> (under "Troubleshooting examples") and re-trying the submission.</p>
