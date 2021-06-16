@@ -20,7 +20,7 @@
 
 <pre>Authorization: Bearer ***apikey***<br />Content-Type: application/json</pre>
 
-<p>Once you have your JSON formatted submit your leads to <code>https://api.lassocrm.com/v1/registrants</code></p>
+<p>Once you have your JSON formatted, submit your leads to <code>https://api.lassocrm.com/v1/registrants</code></p>
 
 <p>An example of the payload response returned upon successful submission is <a href="https://github.com/eci-lasso/single-project-form/blob/master/lead-payload.json">lead-payload.json</a>.</p>
 
