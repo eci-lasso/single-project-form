@@ -28,7 +28,7 @@
 <table>
 <tr>
 <td><b>Code</b></td>
-<td><b>What does that mean?</b></td>
+<td><b>What does it mean?</b></td>
 </tr>
 <tr>
 <td>2xx</td>
