@@ -6,12 +6,12 @@
 <li><code>clientId</code></li>
 <li><code>projectId</code></li>
 <li><code>apiKey</code></li>
-<li>Any other project-specific fields that require a text or numeric value</li>
+  <li>Any other project-specific fields that require a text or numeric value (e.g., <code>setRating</code>, <code>setSourceType</code>... etc.)</li>
 </ul>
 <p> Update the URL for <code>window.location</code> and the website tracking code in <a href="https://github.com/eci-lasso/single-project-form/blob/master/signup.html" target="_blank">signup.html</a> and submit.</p>
 
 <p><b>Registrant is not in Lasso?</b></p>
-<p>If the submission did not go into Lasso, look at the error console in your browser. More information about the request can be found by uncommenting the lines at the bottom of <a href="https://github.com/eci-lasso/single-project-form/blob/master/signup.php" target="_blank">signup.php</a> (under "Troubleshooting examples") and re-trying the submission.</p>
+<p>If the submission did not go into Lasso, look at the error console in your browser. More information about the request can be found by uncommenting the lines at the bottom of <a href="https://github.com/eci-lasso/single-project-form/blob/master/signup.php" target="_blank">signup.php</a> (under <i>Troubleshooting examples</i>) and re-trying the submission.</p>
 
 <h3><a name="not-using-php">NOT using PHP</a></h3>
 <p>An example of the JSON body for submitting to Lasso is <a href="https://github.com/eci-lasso/single-project-form/blob/master/lead.json" target="_blank">lead.json</a>.</p>
