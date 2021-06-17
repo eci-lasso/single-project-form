@@ -24,6 +24,8 @@
 
 <p>An example of the payload response returned upon successful submission is <a href="https://github.com/eci-lasso/single-project-form/blob/master/lead-payload.json">lead-payload.json</a>.</p>
 
+<p>The full API reference is available at <a href="http://api-docs.lassocrm.com" target="_blank">api-docs.lassocrm.com</a>.</p>
+
 <h3><a name="response-codes">Response Codes</a></h3>
 <table>
 <tr>
