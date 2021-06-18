@@ -6,7 +6,7 @@
 <li><code>clientId</code></li>
 <li><code>projectId</code></li>
 <li><code>apiKey</code></li>
-<li>Any other project-specific fields that require a text or numeric value (e.g., <code>setRating</code>, <code>setSourceType</code>... etc.)</li>
+<li>Any other project-specific fields (e.g., <code>setRating</code>, <code>setSourceType</code>... etc.)</li>
 </ul>
 <p> Update the URL for <code>window.location</code> and the website tracking code in <a href="https://github.com/eci-lasso/single-project-form/blob/master/signup.html" target="_blank">signup.html</a> and submit.</p>
 
