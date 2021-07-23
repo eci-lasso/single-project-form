@@ -64,6 +64,7 @@
 		},
 	"sendSalesRepAssignmentNotification":true,
 	"thankYouEmailTemplateId":"1234",
+	"sendOptInEmail": true,
 	"questions":[{
 		"questionId":"1111",
 		"type":"checkbox",
