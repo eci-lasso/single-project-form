@@ -77,6 +77,13 @@ $lead->answerQuestionByIdForText(5555,$_REQUEST['Questions'][5555]);
  */
 $lead->sendAutoReplyThankYouEmail('1234');
 
+/* Opt-In (Default) Email
+ *
+ * Triggers the Opt-In (Default) specialized template to be sent from the project
+ * $lead->sendOptInEmail();
+ */
+$lead->sendOptInEmail();
+
 /* Website Tracking
  *
  * Value for $domainAccountId can be found in the tracking code provided by Lasso
