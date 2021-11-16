@@ -16,11 +16,11 @@
 <h3><a name="not-using-php">NOT using PHP</a></h3>
 <p>An example of the JSON body for submitting to Lasso is <a href="https://github.com/eci-lasso/single-project-form/blob/master/lead.json" target="_blank">lead.json</a>.</p>
 
-<p>You will need to include custom headers in your <code>POST</code> request.</p>
+<p>The <code>POST</code> request will need to include custom headers.</p>
 
 <pre>Authorization: Bearer ***apikey***<br />Content-Type: application/json</pre>
 
-<p>Once you have your JSON formatted, submit your leads to <code>https://api.lassocrm.com/v1/registrants</code></p>
+<p>Once the JSON is formatted, submit leads to <code>https://api.lassocrm.com/v1/registrants</code></p>
 
 <p>An example of the payload response returned upon successful submission is <a href="https://github.com/eci-lasso/single-project-form/blob/master/lead-payload.json">lead-payload.json</a>.</p>
 
