@@ -1,0 +1,100 @@
+{
+	"clientId":"1111",
+	"projectIds":["1111"],
+	"nameTitle":"Dr",
+	"firstName":"Oliver",
+	"lastName":"Thredson",
+	"company":"Briarcliff Manor",
+	"contactPreference":"Any",
+	"emails":[{
+		"email":"othredson@email.com",
+		"type":"Primary",
+		"primary":true
+		}],
+	"phones":[{
+		"phone":"(604) 321-1234",
+		"type":"Work",
+		"primary":true
+		},
+	{
+		"phone":"(778) 321-1234",
+		"type":"Mobile",
+		"primary":false
+		}],
+	"addresses":[{
+		"address":"1234 Main Street",
+		"city":"Vancouver",
+		"province":"BC",
+		"postalCode":"V1V 1V1",
+		"country":"Canada",
+		"type":"Work",
+		"primary":true
+		}],
+	"notes":["I have two small dogs and am interested in pet-friendly properties."],
+	"sourceType":"Online Registration",
+	"secondarySourceType":"Google Campaign",
+	"rating":"N",
+	"ratingId":"1234",
+	"followUpProcess":"30 Day Follow-up",
+	"rotationId":"Online",
+	"domainAccountId":"LAS-123456-01",
+	"guid":"fb6db0f9-0652-4e48-acca-cf31f2f5d8fb",
+	"sendSalesRepAssignmentNotification":true,
+	"thankYouEmailTemplateId":"1234",
+	"questions":[{
+		"questionId":"1111",
+		"name":"Property Interest",
+		"path":"Qualifying Questions (Sample Data)",
+		"answers":[{
+			"id":"001",
+			"text":"Crimson Hill"
+			},
+		{
+			"id":"002",
+			"text":"Sleepy Hollow"
+			}]
+		},
+	{
+		"questionId":"2222",
+		"name":"Property Type",
+		"path":"Qualifying Questions (Sample Data)",
+		"answers":[{
+			"id":"001",
+			"text":"Condominium"
+			},
+		{
+			"id":"002",
+			"text":"Townhouse"
+			},
+		{
+			"id":"003",
+			"text":"Duplex/Triplex"
+			}]
+		},
+	{
+		"questionId":"3333",
+		"name":"Budget",
+		"path":"Qualifying Questions (Sample Data)",
+		"answers":[{
+			"id":"001",
+			"text":"$400K - $499K"
+			}]
+		},
+	{
+		"questionId":"4444",
+		"name":"Area Knowledge",
+		"path":"Qualifying Questions (Sample Data)",
+		"answers":[{
+			"id":"001",
+			"text":"No"
+			}]
+		},
+	{
+		"questionId":"5555",
+		"name":"Additional Inquiries",
+		"path":"Qualifying Questions (Sample Data)",
+		"answers":[{
+			"text":"Do you have any pet-friendly properties?"
+			}]
+		}]
+	}
