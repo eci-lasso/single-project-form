@@ -26,6 +26,8 @@
 
 <p>The full API reference is available at <a href="https://platform.lassocrm.com/#/api" target="_blank">platform.lassocrm.com/#/api</a>.</p>
 
+<p>Note that the above method requires the <b>Lasso API Key</b>. If you're using the <b>Lasso UID</b>, you must use the method in <a href="https://github.com/eci-lasso/single-project-form/blob/master/lead.json" target="_blank">lead-legacy.json</a> to submit. You can use the <a href="http://app.lassocrm.com/registrant_signup/help" target="_blank">Legacy Form Generator</a> to generate your code.</p>
+
 <h3><a name="response-codes">Response Codes</a></h3>
 <table>
 <tr>
