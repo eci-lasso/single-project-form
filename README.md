@@ -16,7 +16,7 @@
 <h3><a name="not-using-php">NOT using PHP</a></h3>
 <p>An example of the JSON body for submitting to Lasso is <a href="https://github.com/eci-lasso/single-project-form/blob/master/lead.json" target="_blank">lead.json</a>.</p>
 
-<p>Note that in your <code>POST</code> request you will need to include custom headers.</p>
+<p>You will need to include custom headers in your <code>POST</code> request.</p>
 
 <pre>Authorization: Bearer ***apikey***<br />Content-Type: application/json</pre>
 
