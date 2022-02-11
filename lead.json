@@ -1,129 +1,132 @@
 {
-	"clientId":"1111",
-	"project":{
-    		"name":"Best Builder Homes OSC",
-    		"projectId":"1111"
+	"person": {
+		"nameTitle": "Dr",
+		"firstName": "Oliver",
+		"lastName": "Thredson",
+		"company": "Briarcliff Manor",
+		"contactPreference": "Any"
 		},
-	"person":{
-		"nameTitle":"Dr",
-		"firstName":"Oliver",
-		"lastName":"Thredson",
-		"company":"Briarcliff Manor",
-		"contactPreference":"Any"
-		},
-	"emails":[{
-		"email":"othredson@email.com",
-		"type":"Primary",
-		"primary":true
+	"emails": [{
+		"email": "othredson@email.com",
+		"type": "Primary",
+		"primary": true
 		}],
-	"phones":[{
-		"phone":"(604) 321-1234",
+	"phones": [{
+		"phone": "(604) 321-1234",
 		"type":"Work",
 		"primary":true
 		},
-	{
-		"phone":"(778) 321-1234",
-		"type":"Mobile",
-		"primary":false
+		{
+		"phone": "(778) 321-1234",
+		"type": "Mobile",
+		"primary": false
 		}],
-	"addresses":[{
-		"address":"1234 Main Street",
-		"city":"Vancouver",
-		"state":"BC",
-		"zipCode":"V1V 1V1",
-		"country":"Canada",
-		"type":"Work",
-		"primary":true
+	"addresses": [{
+		"address": "1234 Main Street",
+		"city": "Vancouver",
+		"state": "BC",
+		"zipCode": "V1V 1V1",
+		"country": "Canada",
+		"type": "Work",
+		"primary": true
 		}],
-	"notes":[{
-		"note":"I have two small dogs and am interested in pet-friendly properties.",
-		"createdBy":{
-			"firstName":"Lasso",
-			"lastName":"Admin"
+	"notes": [{
+		"note": "I have two small dogs and am interested in pet-friendly properties.",
+		"createdBy": {
+			"firstName": "Lana",
+			"lastName": "Winters"
 			},
-		"_links":{"delete":""}
+		"_links": {
+			"delete": "/registrants/1234/notes/1234"
+			}
 		}],
-	"sourceType":{
-		"sourceType":"Online Registration"
+	"sourceType": {
+		"sourceType": "Online Registration"
 		},
-	"secondarySourceType":{
-		"secondarySourceType":"Google Campaign"
+	"secondarySourceType": {
+		"secondarySourceType": "Google Campaign"
 		},
-	"rating":{
-		"ratingId":"1234",
-		"rating":"N"
+	"rating": {
+		"rating": "N"
 		},
-	"followUpProcess":{
-		"followUpProcessId": "1234",
+	"followUpProcess": {
+		"followUpProcessId": 1234,
 		"followUpProcess": "30 Day Follow-up"
 		},
-	"rotationId":"Online",
-	"websiteTracking":{
-		"domainAccountId":"LAS-123456-01",
-		"guid":""
+	"rotationId": 1234,
+	"websiteTracking": {
+		"domainAccountId": LAS-123456-01,
+		"guid": ""
 		},
-	"sendSalesRepAssignmentNotification":true,
-	"thankYouEmailTemplateId":"1234",
+	"sendSalesRepAssignmentNotification": true,
+	"thankYouEmailTemplateId": 1234,
 	"sendOptInEmail": true,
-	"questions":[{
-		"questionId":"1111",
-		"type":"checkbox",
-		"name":"Property Interest",
-		"path":"Qualifying Questions (Sample Data)",
-		"answers":[{
-			"answerId":"001",
-			"answer":"Crimson Hill"
+	"excludeFromTraffic": false,
+	"assignedSalesReps": [{
+		"userId": 1234,
+		"firstName": "Lana",
+		"lastName": "Winters",
+		"isPrimary": true
+	}],
+	"questions": [{
+		"questionId": 1111,
+		"type": "checkbox",
+		"name": "Property Interest",
+		"path": "Qualifying Questions",
+		"answers": [{
+			"answerId": 001,
+			"answer": "Crimson Hill"
 			},
 		{
-			"answerId":"002",
-			"answer":"Sleepy Hollow"
+			"answerId": 002,
+			"answer": "Sleepy Hollow"
 			}]
 		},
 	{
-		"questionId":"2222",
-		"type":"multiple",
-		"name":"Property Type",
-		"path":"Qualifying Questions (Sample Data)",
-		"answers":[{
-			"answerId":"001",
-			"answer":"Condominium"
+		"questionId": 2222,
+		"type": "multiple",
+		"name": "Property Type",
+		"path": "Qualifying Questions",
+		"answers": [{
+			"answerId": 001,
+			"answer": "Condominium"
 			},
 		{
-			"answerId":"002",
-			"answer":"Townhouse"
+			"answerId": 002,
+			"answer": "Townhouse"
 			},
 		{
-			"answerId":"003",
-			"answer":"Duplex/Triplex"
+			"answerId": 003,
+			"answer": "Duplex/Triplex"
 			}]
 		},
 	{
-		"questionId":"3333",
-		"type":"single",
-		"name":"Budget",
-		"path":"Qualifying Questions (Sample Data)",
-		"answers":[{
-			"answerId":"001",
-			"answer":"$400K - $499K"
+		"questionId": 3333,
+		"type": "single",
+		"name": "Budget",
+		"path": "Qualifying Questions",
+		"answers": [{
+			"answerId": 001,
+			"answer": "$400K - $499K"
 			}]
 		},
 	{
-		"questionId":"4444",
-		"type":"radio",
-		"name":"Area Knowledge",
-		"path":"Qualifying Questions (Sample Data)",
-		"answers":[{
-			"answerId":"001",
-			"answer":"No"
+		"questionId": 4444,
+		"type": "radio",
+		"name": "Area Knowledge",
+		"path": "Qualifying Questions",
+		"answers": [{
+			"answerId": 001,
+			"answer": "No"
 			}]
 		},
 	{
-		"questionId":"5555",
-		"type":"text",
-		"name":"Additional Inquiries",
-		"path":"Qualifying Questions (Sample Data)",
+		"questionId": 5555,
+		"type": "text",
+		"name": "Additional Inquiries",
+		"path": "Qualifying Questions",
 		"answers":[{
-			"answer":"Do you have any pet-friendly properties?"
+			"answer": "Do you have any pet-friendly properties?"
 			}]
 		}]
 	}
