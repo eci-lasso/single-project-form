@@ -88,15 +88,15 @@
 		"name": "Property Type",
 		"path": "Qualifying Questions",
 		"answers": [{
-			"answerId": 001,
+			"answerId": 201,
 			"answer": "Condominium"
 			},
 		{
-			"answerId": 002,
+			"answerId": 202,
 			"answer": "Townhouse"
 			},
 		{
-			"answerId": 003,
+			"answerId": 203,
 			"answer": "Duplex/Triplex"
 			}]
 		},
@@ -106,7 +106,7 @@
 		"name": "Budget",
 		"path": "Qualifying Questions",
 		"answers": [{
-			"answerId": 001,
+			"answerId": 301,
 			"answer": "$400K - $499K"
 			}]
 		},
@@ -116,7 +116,7 @@
 		"name": "Area Knowledge",
 		"path": "Qualifying Questions",
 		"answers": [{
-			"answerId": 001,
+			"answerId": 401,
 			"answer": "No"
 			}]
 		},
