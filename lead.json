@@ -4,7 +4,11 @@
 		"firstName": "Oliver",
 		"lastName": "Thredson",
 		"company": "Briarcliff Manor",
-		"contactPreference": "Any"
+		"contactPreference": "Any",
+		"gender": "unspecified",
+    		"nickname": "Oliver",
+		"birthday": "10/31",
+		"ssnSin": "123 456 789"
 		},
 	"emails": [{
 		"email": "othredson@email.com",
@@ -34,7 +38,8 @@
 		"note": "I have two small dogs and am interested in pet-friendly properties.",
 		"createdBy": {
 			"firstName": "Lana",
-			"lastName": "Winters"
+			"lastName": "Winters",
+			"userId": 1234
 			},
 		"_links": {
 			"delete": "/registrants/1234/notes/1234"
@@ -51,7 +56,7 @@
 		},
 	"followUpProcess": {
 		"followUpProcessId": 1234,
-		"followUpProcess": "30 Day Follow-up"
+		"followUpProcess": "30-day Follow-up"
 		},
 	"rotationId": 1234,
 	"websiteTracking": {
@@ -61,7 +66,16 @@
 	"sendSalesRepAssignmentNotification": true,
 	"thankYouEmailTemplateId": 1234,
 	"sendOptInEmail": true,
+	"rotationId": 1234,
 	"excludeFromTraffic": false,
+	"registrationDate": "2020-01-31T20:20:40Z",
+  	"externalId": "ABC123",
+	"externalDuplicateIds": ["DEF456"],
+	"automaticallyMerge": true,
+	"_links": {
+		"self": "/registrants/1234",
+		"update": "/registrants/1234"
+	},
 	"assignedSalesReps": [{
 		"userId": 1234,
 		"firstName": "Lana",
@@ -72,7 +86,7 @@
 		"questionId": 1111,
 		"type": "checkbox",
 		"name": "Property Interest",
-		"path": "Qualifying Questions",
+		"path": "/Qualifying Questions",
 		"answers": [{
 			"answerId": 101,
 			"answer": "Crimson Hill"
@@ -84,9 +98,9 @@
 		},
 	{
 		"questionId": 2222,
-		"type": "multiple",
+		"type": "multi_select",
 		"name": "Property Type",
-		"path": "Qualifying Questions",
+		"path": "/Qualifying Questions",
 		"answers": [{
 			"answerId": 201,
 			"answer": "Condominium"
@@ -102,9 +116,9 @@
 		},
 	{
 		"questionId": 3333,
-		"type": "single",
+		"type": "single_select",
 		"name": "Budget",
-		"path": "Qualifying Questions",
+		"path": "/Qualifying Questions",
 		"answers": [{
 			"answerId": 301,
 			"answer": "$400K - $499K"
@@ -112,9 +126,9 @@
 		},
 	{
 		"questionId": 4444,
-		"type": "radio",
+		"type": "single_select",
 		"name": "Area Knowledge",
-		"path": "Qualifying Questions",
+		"path": "/Qualifying Questions",
 		"answers": [{
 			"answerId": 401,
 			"answer": "No"
