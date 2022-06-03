@@ -23,11 +23,11 @@
 <script src="http://ajax.microsoft.com/ajax/jquery.validate/1.5.5/jquery.validate.min.js" type="text/javascript"></script>
     
 <script type="text/javascript">
-<!-- Validates required fields -->
+// Validates required fields
 $(document).ready(function(){
 	$("#lassoSignupForm").validate({
-		errorLabelContainer: $('#errorContainer'),
-		errorClass: 'error',
+		errorLabelContainer: $("#errorContainer"),
+		errorClass: "error",
 		rules:{
 			FirstName: "required",
 			LastName: "required",
@@ -45,19 +45,19 @@ $(document).ready(function(){
 		}
 	});
 	
-	<!-- Passes information to the PHP file and re-directs to the Thank You page -->
-	$('#register').click(function(){
-		$('#lassoSignupForm').submit();
+	// Passes information to the PHP file and re-directs to the Thank You page
+	$("#register").click(function(){
+		$("#lassoSignupForm").submit();
 		return false;
 	});
 	function register(){
 		jQuery.ajax({
 			type: "POST",
-			url: 'signup.php',
-			data: $('#lassoSignupForm').serializeArray(),
+			url: "signup.php",
+			data: $("#lassoSignupForm").serializeArray(),
 			success: function(data, status, jqxhr){
 				console.log(data);
-				window.location='http://www.website.com/thank-you.html';
+				window.location="http://www.website.com/thank-you.html";
 			},
 			error: function(jqxhr,status,err){
 				console.log(err);
