@@ -85,7 +85,7 @@
 	"questions": [{
 		"questionId": 1111,
 		"type": "checkbox",
-		"name": "Property Interest",
+		"name": "Checkbox Question",
 		"path": "/Questions",
 		"answers": [{
 			"answerId": 101,
@@ -99,7 +99,7 @@
 	{
 		"questionId": 2222,
 		"type": "multi_select",
-		"name": "Property Type",
+		"name": "Multi-select Drop-down Question",
 		"path": "/Questions",
 		"answers": [{
 			"answerId": 201,
@@ -117,7 +117,7 @@
 	{
 		"questionId": 3333,
 		"type": "single_select",
-		"name": "Budget",
+		"name": "Single-select Drop-down Question",
 		"path": "/Questions",
 		"answers": [{
 			"answerId": 301,
@@ -127,7 +127,7 @@
 	{
 		"questionId": 4444,
 		"type": "single_select",
-		"name": "Area Knowledge",
+		"name": "Radio Button Question",
 		"path": "/Questions",
 		"answers": [{
 			"answerId": 401,
@@ -137,7 +137,7 @@
 	{
 		"questionId": 5555,
 		"type": "text",
-		"name": "Additional Inquiries",
+		"name": "Manual Input Question",
 		"path": "/Questions",
 		"answers":[{
 			"answer": "This is an answer."
