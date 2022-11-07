@@ -1,17 +1,17 @@
 {
 	"person": {
 		"nameTitle": "Dr",
-		"firstName": "Oliver",
-		"lastName": "Thredson",
-		"company": "Briarcliff Manor",
+		"firstName": "Lasso",
+		"lastName": "Registrant",
+		"company": "ECI | Lasso",
 		"contactPreference": "Any",
 		"gender": "unspecified",
-    		"nickname": "Oliver",
-		"birthday": "10/31",
+    		"nickname": "Registrant",
+		"birthday": "01/01",
 		"ssnSin": "123 456 789"
 		},
 	"emails": [{
-		"email": "othredson@email.com",
+		"email": "registrant@email.com",
 		"type": "Primary",
 		"primary": true
 		}],
@@ -35,10 +35,10 @@
 		"primary": true
 		}],
 	"notes": [{
-		"note": "I have two small dogs and am interested in pet-friendly properties.",
+		"note": "Interested in pet-friendly properties.",
 		"createdBy": {
-			"firstName": "Lana",
-			"lastName": "Winters",
+			"firstName": "Sales",
+			"lastName": "Manager",
 			"userId": 1234
 			},
 		"_links": {
@@ -46,10 +46,10 @@
 			}
 		}],
 	"sourceType": {
-		"sourceType": "Online Registration"
+		"sourceType": "Online"
 		},
 	"secondarySourceType": {
-		"secondarySourceType": "Google Campaign"
+		"secondarySourceType": "Campaign"
 		},
 	"rating": {
 		"rating": "N"
@@ -78,69 +78,69 @@
 	},
 	"assignedSalesReps": [{
 		"userId": 1234,
-		"firstName": "Lana",
-		"lastName": "Winters",
+		"firstName": "Sales",
+		"lastName": "Rep",
 		"isPrimary": true
 	}],
 	"questions": [{
 		"questionId": 1111,
 		"type": "checkbox",
 		"name": "Property Interest",
-		"path": "/Qualifying Questions",
+		"path": "/Questions",
 		"answers": [{
 			"answerId": 101,
-			"answer": "Crimson Hill"
+			"answer": "Answer 1"
 			},
 		{
 			"answerId": 102,
-			"answer": "Sleepy Hollow"
+			"answer": "Answer 2"
 			}]
 		},
 	{
 		"questionId": 2222,
 		"type": "multi_select",
 		"name": "Property Type",
-		"path": "/Qualifying Questions",
+		"path": "/Questions",
 		"answers": [{
 			"answerId": 201,
-			"answer": "Condominium"
+			"answer": "Answer 1"
 			},
 		{
 			"answerId": 202,
-			"answer": "Townhouse"
+			"answer": "Answer 2"
 			},
 		{
 			"answerId": 203,
-			"answer": "Duplex/Triplex"
+			"answer": "Answer 3"
 			}]
 		},
 	{
 		"questionId": 3333,
 		"type": "single_select",
 		"name": "Budget",
-		"path": "/Qualifying Questions",
+		"path": "/Questions",
 		"answers": [{
 			"answerId": 301,
-			"answer": "$400K - $499K"
+			"answer": "Answer 1"
 			}]
 		},
 	{
 		"questionId": 4444,
 		"type": "single_select",
 		"name": "Area Knowledge",
-		"path": "/Qualifying Questions",
+		"path": "/Questions",
 		"answers": [{
 			"answerId": 401,
-			"answer": "No"
+			"answer": "Answer 1"
 			}]
 		},
 	{
 		"questionId": 5555,
 		"type": "text",
 		"name": "Additional Inquiries",
-		"path": "Qualifying Questions",
+		"path": "/Questions",
 		"answers":[{
-			"answer": "Do you have any pet-friendly properties?"
+			"answer": "This is an answer"
 			}]
 		}]
 	}
