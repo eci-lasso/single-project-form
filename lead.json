@@ -35,7 +35,7 @@
 		"primary": true
 		}],
 	"notes": [{
-		"note": "Interested in pet-friendly properties.",
+		"note": "This is a note.",
 		"createdBy": {
 			"firstName": "Sales",
 			"lastName": "Manager",
@@ -140,7 +140,7 @@
 		"name": "Additional Inquiries",
 		"path": "/Questions",
 		"answers":[{
-			"answer": "This is an answer"
+			"answer": "This is an answer."
 			}]
 		}]
 	}
