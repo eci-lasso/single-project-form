@@ -157,8 +157,8 @@
 	"excludeFromTraffic": false,
 	"externalId": "ABC123",
 	"externalDuplicateIds": ["ABC123"],
-	"automaticallyMerge": true,
 	"registrationDate": "2020-01-31T20:20:40Z",
+  "automaticallyMerge": true,
 	"_links": {
 		"self": "/registrants/1234",
 		"update": "/registrants/1234"
