@@ -10,95 +10,95 @@
     "nickname": "Reg",
     "birthday": "12/31",
     "ssnSin": "123 456 789"
-    },
+  },
   "emails": [{
     "email": "work@email.com",
     "type": "Work",
     "primary": true
-    },
+  },
   {
     "email": "personal@email.com",
     "type": "Personal",
     "primary": false
-    }],
+  }],
   "phones": [{
     "phone": "(604) 321-1234",
     "type": "Work",
     "primary": true
-    },
+  },
   {
-		"phone": "(778) 321-1234",
-		"type": "Mobile",
-		"primary": false
-		}],
-	"addresses": [{
-		"address": "1234 Main Street",
-		"city": "Vancouver",
-		"state": "BC",
-		"zipCode": "V1V 1V1",
-		"country": "Canada",
-		"type": "Work",
-		"primary": true
-		}],
-	"notes": [{
-		"note": "This is a note",
-		"createdBy": {
-			"userId": 1234,
-			"firstName": "Sales",
-			"lastName": "Manager"
-			},
-		"_links": {
-			"delete": "/registrants/1234/notes/1234"
-			}
-		}],
-	"history": [{
-		"typeId": 1234,
-		"type": "Email",
-		"date": "2020-01-31T20:20:40Z",
-		"subject": "This is a subject",
-		"body": "This is a body",
-		"createdBy": {
-			"userId": 1234,
-			"firstName": "John",
-			"lastName": "Smith"
-			},
-		"_links": {
-			"self": "/registrants/1234/history/1234"
-			}
-    		}],
-	"sourceType": {
-		"sourceType": "Online"
-		},
-	"secondarySourceType": {
-		"secondarySourceType": "Campaign"
-		},
-	"rating": {
-		"rating": "N"
-		},
-	"followUpProcess": {
-		"followUpProcessId": 1234,
-		"followUpProcess": "30-day Follow-up"
-		},
-	"questions": [{
-		"questionId": 1111,
-		"type": "checkbox",
-		"name": "Checkbox Question",
-		"path": "/Questions",
-		"answers": [{
-			"answerId": 101,
-			"answer": "Answer 1"
-			},
-			{
-			"answerId": 102,
-			"answer": "Answer 2"
-			}]
-		},
-		{
-		"questionId": 2222,
-		"type": "multi_select",
-		"name": "Multi-select Drop-down Question",
-		"path": "/Questions",
-		"answers": [{
+    "phone": "(778) 321-1234",
+    "type": "Mobile",
+    "primary": false
+  }],
+  "addresses": [{
+    "address": "1234 Main Street",
+    "city": "Vancouver",
+    "state": "BC",
+    "zipCode": "V1V 1V1",
+    "country": "Canada",
+    "type": "Work",
+    "primary": true
+  }],
+  "notes": [{
+    "note": "This is a note",
+    "createdBy": {
+      "userId": 1234,
+      "firstName": "Sales",
+      "lastName": "Manager"
+    },
+    "_links": {
+      "delete": "/registrants/1234/notes/1234"
+    }
+  }],
+  "history": [{
+    "typeId": 1234,
+    "type": "Email",
+    "date": "2020-01-31T20:20:40Z",
+    "subject": "This is a subject",
+    "body": "This is a body",
+    "createdBy": {
+      "userId": 1234,
+      "firstName": "John",
+      "lastName": "Smith"
+    },
+    "_links": {
+      "self": "/registrants/1234/history/1234"
+    }
+  }],
+  "sourceType": {
+    "sourceType": "Online"
+  },
+  "secondarySourceType": {
+    "secondarySourceType": "Campaign"
+  },
+  "rating": {
+    "rating": "N"
+  },
+  "followUpProcess": {
+    "followUpProcessId": 1234,
+    "followUpProcess": "30-day Follow-up"
+  },
+  "questions": [{
+    "questionId": 1111,
+    "type": "checkbox",
+    "name": "Checkbox Question",
+    "path": "/Questions",
+    "answers": [{
+      "answerId": 101,
+      "answer": "Answer 1"
+    },
+    {
+      "answerId": 102,
+      "answer": "Answer 2"
+    }]
+  },
+  {
+    "questionId": 2222,
+    "type": "multi_select",
+    "name": "Multi-select Drop-down Question",
+    "path": "/Questions",
+    "answers": [{
 			"answerId": 201,
 			"answer": "Answer 1"
 			},
