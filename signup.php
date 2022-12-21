@@ -12,19 +12,19 @@ $projectId = '1001';
 $apiKey = '1x1x1';
 
 if (empty($clientId) || empty($projectId) || empty($apiKey)){
-	throw new Exception('Required parameters are not set, please check that
-				your $clientId, $projectId and $apiKey
-				are configured correctly');
+  throw new Exception('Required parameters are not set, please check that
+                        the $clientId, $projectId and $apiKey
+                        are configured correctly');
 }
 
 /* Constructing and submitting a lead:
  * Map form fields to the lead object and submit
  */
 $lead = new LassoLead(
-	$_REQUEST['FirstName'],
-	$_REQUEST['LastName'],
-	$projectId,
-	$clientId
+  $_REQUEST['FirstName'],
+  $_REQUEST['LastName'],
+  $projectId,
+  $clientId
 );
 
 $lead->addPhone($_REQUEST['Phone']);
@@ -32,11 +32,11 @@ $lead->addPhone($_REQUEST['Phone']);
 $lead->addEmail($_REQUEST['Email']);
 
 $lead->addAddress(
-	$_REQUEST['Address'],
-	$_REQUEST['City'],
-	$_REQUEST['Province'],
-	$_REQUEST['PostalCode'],
-	$_REQUEST['Country']
+  $_REQUEST['Address'],
+  $_REQUEST['City'],
+  $_REQUEST['Province'],
+  $_REQUEST['PostalCode'],
+  $_REQUEST['Country']
 );
 
 $lead->setNameTitle($_REQUEST['NameTitle']);
@@ -60,7 +60,7 @@ $lead->setRotationId(1234);
  * For any number of questions on the form where answers are selected
  */
 foreach($_REQUEST['Questions'] as $questionId => $value){
-	 $lead->answerQuestionById($questionId, $value);
+  $lead->answerQuestionById($questionId, $value);
 }
 
 /* Questions (text answer)
