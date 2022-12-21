@@ -1,24 +1,30 @@
 {
 	"person": {
+		"personalId": 1234,
 		"nameTitle": "Dr",
 		"firstName": "Lasso",
 		"lastName": "Registrant",
 		"company": "ECI | Lasso",
-		"contactPreference": "Any",
+		"contactPreference": "any",
 		"gender": "unspecified",
-    		"nickname": "Registrant",
-		"birthday": "01/01",
+		"nickname": "Reg",
+		"birthday": "12/31",
 		"ssnSin": "123 456 789"
 		},
 	"emails": [{
-		"email": "registrant@email.com",
-		"type": "Primary",
+		"email": "work@email.com",
+		"type": "Work",
 		"primary": true
+		},
+		{
+		"email": "personal@email.com",
+		"type": "Personal",
+		"primary": false
 		}],
 	"phones": [{
 		"phone": "(604) 321-1234",
-		"type":"Work",
-		"primary":true
+		"type": "Work",
+		"primary": true
 		},
 		{
 		"phone": "(778) 321-1234",
@@ -35,16 +41,31 @@
 		"primary": true
 		}],
 	"notes": [{
-		"note": "This is a note.",
+		"note": "This is a note",
 		"createdBy": {
+			"userId": 1234,
 			"firstName": "Sales",
-			"lastName": "Manager",
-			"userId": 1234
+			"lastName": "Manager"
 			},
 		"_links": {
 			"delete": "/registrants/1234/notes/1234"
 			}
 		}],
+	"history": [{
+		"typeId": 1234,
+		"type": "Email",
+		"date": "2020-01-31T20:20:40Z",
+		"subject": "This is a subject",
+		"body": "This is a body",
+		"createdBy": {
+			"userId": 1234,
+			"firstName": "John",
+			"lastName": "Smith"
+			},
+		"_links": {
+			"self": "/registrants/1234/history/1234"
+			}
+    		}],
 	"sourceType": {
 		"sourceType": "Online"
 		},
@@ -58,30 +79,6 @@
 		"followUpProcessId": 1234,
 		"followUpProcess": "30-day Follow-up"
 		},
-	"rotationId": 1234,
-	"websiteTracking": {
-		"domainAccountId": "LAS-123456-01",
-		"guid": ""
-		},
-	"sendSalesRepAssignmentNotification": true,
-	"thankYouEmailTemplateId": 1234,
-	"sendOptInEmail": true,
-	"rotationId": 1234,
-	"excludeFromTraffic": false,
-	"registrationDate": "2020-01-31T20:20:40Z",
-  	"externalId": "ABC123",
-	"externalDuplicateIds": ["DEF456"],
-	"automaticallyMerge": true,
-	"_links": {
-		"self": "/registrants/1234",
-		"update": "/registrants/1234"
-	},
-	"assignedSalesReps": [{
-		"userId": 1234,
-		"firstName": "Sales",
-		"lastName": "Rep",
-		"isPrimary": true
-	}],
 	"questions": [{
 		"questionId": 1111,
 		"type": "checkbox",
@@ -91,12 +88,12 @@
 			"answerId": 101,
 			"answer": "Answer 1"
 			},
-		{
+			{
 			"answerId": 102,
 			"answer": "Answer 2"
 			}]
 		},
-	{
+		{
 		"questionId": 2222,
 		"type": "multi_select",
 		"name": "Multi-select Drop-down Question",
@@ -105,16 +102,16 @@
 			"answerId": 201,
 			"answer": "Answer 1"
 			},
-		{
+			{
 			"answerId": 202,
 			"answer": "Answer 2"
 			},
-		{
+			{
 			"answerId": 203,
 			"answer": "Answer 3"
 			}]
 		},
-	{
+		{
 		"questionId": 3333,
 		"type": "single_select",
 		"name": "Single-select Drop-down Question",
@@ -124,7 +121,7 @@
 			"answer": "Answer 1"
 			}]
 		},
-	{
+		{
 		"questionId": 4444,
 		"type": "single_select",
 		"name": "Radio Button Question",
@@ -134,7 +131,7 @@
 			"answer": "Answer 1"
 			}]
 		},
-	{
+		{
 		"questionId": 5555,
 		"type": "text",
 		"name": "Manual Input Question",
@@ -142,5 +139,28 @@
 		"answers":[{
 			"answer": "This is an answer."
 			}]
-		}]
+		}],
+	"websiteTracking": {
+		"domainAccountId": "LAS-123456-01",
+		"guid": ""
+		},
+	"assignedSalesReps": [{
+		"userId": 1234,
+		"firstName": "Sales",
+		"lastName": "Rep",
+		"isPrimary": true
+		}],
+	"rotationId": 1234,
+	"sendSalesRepAssignmentNotification": true,
+	"sendOptInEmail": true,
+	"thankYouEmailTemplateId": 1234,
+	"excludeFromTraffic": false,
+	"externalId": "ABC123",
+	"externalDuplicateIds": ["ABC123"],
+	"automaticallyMerge": true,
+	"registrationDate": "2020-01-31T20:20:40Z",
+	"_links": {
+		"self": "/registrants/1234",
+		"update": "/registrants/1234"
+		}
 	}
