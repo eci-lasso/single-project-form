@@ -131,36 +131,36 @@
       "answer": "Answer 1"
     }]
   },
-		{
-		"questionId": 5555,
-		"type": "text",
-		"name": "Manual Input Question",
-		"path": "/Questions",
-		"answers":[{
-			"answer": "This is an answer."
-			}]
-		}],
-	"websiteTracking": {
-		"domainAccountId": "LAS-123456-01",
-		"guid": ""
-		},
-	"assignedSalesReps": [{
-		"userId": 1234,
-		"firstName": "Sales",
-		"lastName": "Rep",
-		"isPrimary": true
-		}],
-	"rotationId": 1234,
-	"sendSalesRepAssignmentNotification": true,
-	"sendOptInEmail": true,
-	"thankYouEmailTemplateId": 1234,
-	"excludeFromTraffic": false,
-	"externalId": "ABC123",
-	"externalDuplicateIds": ["ABC123"],
-	"registrationDate": "2020-01-31T20:20:40Z",
-	"automaticallyMerge": true,
-	"_links": {
-		"self": "/registrants/1234",
-		"update": "/registrants/1234"
-		}
-	}
+  {
+    "questionId": 5555,
+    "type": "text",
+    "name": "Manual Input Question",
+    "path": "/Questions",
+    "answers":[{
+      "answer": "This is an answer."
+    }]
+  }],
+  "websiteTracking": {
+    "domainAccountId": "LAS-123456-01",
+    "guid": ""
+  },
+  "assignedSalesReps": [{
+    "userId": 1234,
+    "firstName": "Sales",
+    "lastName": "Rep",
+    "isPrimary": true
+  }],
+  "rotationId": 1234,
+  "sendSalesRepAssignmentNotification": true,
+  "sendOptInEmail": true,
+  "thankYouEmailTemplateId": 1234,
+  "excludeFromTraffic": false,
+  "externalId": "ABC123",
+  "externalDuplicateIds": ["ABC123"],
+  "registrationDate": "2020-01-31T20:20:40Z",
+  "automaticallyMerge": true,
+  "_links": {
+    "self": "/registrants/1234",
+    "update": "/registrants/1234"
+  }
+}
