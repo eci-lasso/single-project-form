@@ -1,32 +1,32 @@
 {
-	"person": {
-		"personalId": 1234,
-		"nameTitle": "Dr",
-		"firstName": "Lasso",
-		"lastName": "Registrant",
-		"company": "ECI | Lasso",
-		"contactPreference": "any",
-		"gender": "unspecified",
-		"nickname": "Reg",
-		"birthday": "12/31",
-		"ssnSin": "123 456 789"
-		},
-	"emails": [{
-		"email": "work@email.com",
-		"type": "Work",
-		"primary": true
-		},
-		{
-		"email": "personal@email.com",
-		"type": "Personal",
-		"primary": false
-		}],
-	"phones": [{
-		"phone": "(604) 321-1234",
-		"type": "Work",
-		"primary": true
-		},
-		{
+  "person": {
+    "personalId": 1234,
+    "nameTitle": "Dr",
+    "firstName": "Lasso",
+    "lastName": "Registrant",
+    "company": "ECI | Lasso",
+    "contactPreference": "any",
+    "gender": "unspecified",
+    "nickname": "Reg",
+    "birthday": "12/31",
+    "ssnSin": "123 456 789"
+    },
+  "emails": [{
+    "email": "work@email.com",
+    "type": "Work",
+    "primary": true
+    },
+  {
+    "email": "personal@email.com",
+    "type": "Personal",
+    "primary": false
+    }],
+  "phones": [{
+    "phone": "(604) 321-1234",
+    "type": "Work",
+    "primary": true
+    },
+  {
 		"phone": "(778) 321-1234",
 		"type": "Mobile",
 		"primary": false
