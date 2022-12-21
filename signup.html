@@ -168,37 +168,36 @@
   </td></tr></table>
   
   <!-- Lasso Website Tracking Script | Minified -->
-	<script type="text/javascript">
-		window.LassoAnalyticsAPI = 2;
-		(function(t,r,a,c,k,e,d){
-			t.LassoAnalyticsObject=k;t[k]=t[k]||function(){
-				(t[k].q=t[k].q||[]).push(arguments);return t[k]
-			},
-			e=r.createElement(a),e.async=1;e.src=c;d=r.getElementsByTagName(a)[0];
-			d.parentNode.insertBefore(e,d)
-		})
-		(window,document,'script','https://platform.lassocrm.com/wt/analytics.min.js','LassoAnalytics');
-		
-		LassoAnalytics('setAccountId', 'LAS-123456-01')('track', {category: 'pageView'})('patchRegistrationForms');
-	</script>
+  <script type="text/javascript">
+    window.LassoAnalyticsAPI = 2;
+    (function(t,r,a,c,k,e,d){
+      t.LassoAnalyticsObject=k;t[k]=t[k]||function(){
+        (t[k].q=t[k].q||[]).push(arguments);return t[k]
+      },
+        e=r.createElement(a),e.async=1;e.src=c;d=r.getElementsByTagName(a)[0];
+      d.parentNode.insertBefore(e,d)
+    })
+    (window,document,'script','https://platform.lassocrm.com/wt/analytics.min.js','LassoAnalytics');
+    LassoAnalytics('setAccountId', 'LAS-123456-01')('track', {category: 'pageView'})('patchRegistrationForms');
+  </script>
   
   <!-- Lasso Website Tracking Script | Unminified -->
-	<!-- script type="text/javascript">
-		window.LassoAnalyticsAPI = 2;
-		(function(win,doc,scr,url,name,elem,parnt) {
-			win.LassoAnalyticsObject=name;
-			win[name]=win[name]||function() {
-				(win[name].q=win[name].q||[]).push(arguments);
-				return win[name];
-			},
-			elem=doc.createElement(scr),
-			elem.async=1;
-			elem.src=url;
-			parnt=doc.getElementsByTagName(scr)[0];
-			parnt.parentNode.insertBefore(elem, parnt);
-		})(window,document,"script","https://platform.lassocrm.com/wt/analytics.min.js","LassoAnalytics");
-
-		LassoAnalytics("setAccountId", "LAS-123456-01")("track", {category: "pageView"})("patchRegistrationForms");
+  <!-- script type="text/javascript">
+    window.LassoAnalyticsAPI = 2;
+    (function(win,doc,scr,url,name,elem,parnt) {
+      win.LassoAnalyticsObject=name;
+      win[name]=win[name]||function() {
+        (win[name].q=win[name].q||[]).push(arguments);
+        return win[name];
+      },
+      elem=doc.createElement(scr),
+      elem.async=1;
+      elem.src=url;
+      parnt=doc.getElementsByTagName(scr)[0];
+      parnt.parentNode.insertBefore(elem, parnt);
+    })
+    (window,document,"script","https://platform.lassocrm.com/wt/analytics.min.js","LassoAnalytics");
+    LassoAnalytics("setAccountId", "LAS-123456-01")("track", {category: "pageView"})("patchRegistrationForms");
 	</script -->
 </body>
 </html>
